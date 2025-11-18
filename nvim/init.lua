@@ -19,8 +19,8 @@ vim.g.mapleader = " "  -- Space as leader
 -- LSP keymaps
 -- ===========================
 local function on_attach_notify(client, bufnr)
-    if client and client.name == "clangd" then
-        print("clangd is attached to buffer" .. bufnr)
+    if client then
+        print(client.name .. " is attached to buffer " .. bufnr)
     end
 
     local opts = { noremap = true, silent = true, buffer = bufnr }
@@ -92,3 +92,36 @@ vim.api.nvim_set_keymap('i', '<C-Space>', '<C-x><C-o>', { noremap = true, silent
 --     end,
 -- })
 
+-- ==========================================================
+-- *** ADA LANGUAGE SERVER (ALS) SETUP ***
+-- ==========================================================
+local function setup_ada_ls()
+    vim.api.nvim_create_autocmd({"BufReadPost", "BufNewFile"}, {
+        pattern = {"*.adb", "*.ads"},
+        callback = function()
+            local bufnr = vim.api.nvim_get_current_buf()
+
+            -- Set omnifunc for LSP completion
+            vim.bo[bufnr].omnifunc = "v:lua.vim.lsp.omnifunc"
+
+            if not vim.lsp.buf_is_attached(bufnr, "ada_ls") then
+                vim.lsp.start({
+                    name = "ALS",
+                    cmd = { "/usr/local/bin/ada_language_server" },  -- <-- your ALS binary
+                    root_dir = vim.fn.getcwd(),
+                    on_attach = on_attach_notify,
+                })
+            end
+        end,
+    })
+end
+
+setup_ada_ls()
+
+-- Optional: ensure Neovim recognizes Ada files
+vim.filetype.add({
+    extension = {
+        adb = "ada",
+        ads = "ada",
+    }
+})

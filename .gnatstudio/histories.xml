@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<History>
+  <key type="strings" name="search--filter-recent" >
+    <Length> 5</Length>
+  </key>
+  <key type="booleans" name="omni-search-include-all-from-source-dirs" >
+    <value>TRUE</value>
+  </key>
+  <key type="booleans" name="project_view-filter-whole-word" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="locations-filter-recent" >
+    <Length> 5</Length>
+  </key>
+  <key type="booleans" name="Call_Graph_Show_Locations" >
+    <value>TRUE</value>
+  </key>
+  <key type="strings" name="outline-filter-recent" >
+    <Length> 5</Length>
+  </key>
+  <key type="strings" name="project_view-filter-recent" >
+    <Length> 5</Length>
+  </key>
+  <key type="booleans" name="search--filter-case-sensitive" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="global_searchglobal_search-case_sensitive" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="outline-filter-whole-word" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="locations-filter-whole-word" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="search--filter-whole-word" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="project_view-filter-react-enter" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="project_view-filter-fuzzy" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="global_searchglobal_search-whole_word" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="global_search-preview" >
+    <value>TRUE</value>
+  </key>
+  <key type="booleans" name="locations-filter-is-regexp" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="global_search-kind" >
+    <value>FUZZY</value>
+    <value>FULL_TEXT</value>
+    <Length> 1</Length>
+  </key>
+  <key type="strings" name="reopen_files" >
+    <value>/home/cjolman3/MyCode/src/main.adb</value>
+  </key>
+  <key type="booleans" name="search-displays-relative-paths" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="outline-filter-fuzzy" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="outline-filter-negate" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="locations-filter-negate" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="project_view-filter-is-regexp" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="global_search-width" >
+    <value> 25</value>
+  </key>
+  <key type="strings" name="key-theme" >
+    <value>default</value>
+    <Length> 1</Length>
+  </key>
+  <key type="strings" name="project_files" >
+    <value>/home/cjolman3/MyCode/gnatstudiobinplugintest.gpr</value>
+  </key>
+  <key type="booleans" name="project_view-filter-negate" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="locations-filter-fuzzy" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="outline-filter-is-regexp" >
+    <value>FALSE</value>
+  </key>
+</History>

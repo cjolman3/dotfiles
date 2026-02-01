@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<GNAT_Studio>
-  <perspectives state=" 0" mdi_height=" 838" mdi_width=" 1280" height=" 900" width=" 1280"  >
+<GNAT_Studio >
+  <perspectives state=" 0" mdi_height=" 1307" mdi_width=" 2560" height=" 1369" width=" 2560"  >
     <perspective name="Default">
       <Pane width=" 1.00000E+02%" Orientation="ORIENTATION_HORIZONTAL" >
-        <Pane width=" 2.81447E+01%" Orientation="ORIENTATION_VERTICAL" >
-          <Notebook height=" 5.02410E+01%" Tabs="POS_LEFT" >
+        <Pane width=" 2.73119E+01%" Orientation="ORIENTATION_VERTICAL" >
+          <Notebook height=" 5.01925E+01%" Tabs="POS_LEFT" >
             <Child Raised="True" Group=" 106" State="NORMAL" >
               <Project_Explorer_Project />
             </Child>
@@ -12,7 +12,7 @@
               <Scenario_View />
             </Child>
           </Notebook>
-          <Notebook height=" 5.02410E+01%" Tabs="POS_LEFT" >
+          <Notebook height=" 5.01925E+01%" Tabs="POS_LEFT" >
             <Child Raised="True" Group=" 106" State="NORMAL" >
               <Learn_View />
             </Child>
@@ -21,15 +21,15 @@
             </Child>
           </Notebook>
         </Pane>
-        <Pane width=" 7.21698E+01%" Orientation="ORIENTATION_VERTICAL" >
-          <central height=" 8.02410E+01%"  />
-          <Pane height=" 2.02410E+01%" Orientation="ORIENTATION_HORIZONTAL" >
-            <Notebook width=" 5.02198E+01%" Tabs="POS_TOP" >
+        <Pane width=" 7.28448E+01%" Orientation="ORIENTATION_VERTICAL" >
+          <central height=" 5.50423E+01%"  />
+          <Pane height=" 4.52656E+01%" Orientation="ORIENTATION_HORIZONTAL" >
+            <Notebook width=" 5.00810E+01%" Tabs="POS_TOP" >
               <Child Raised="True" Group=" 107" State="NORMAL" >
                 <Message_Window />
               </Child>
             </Notebook>
-            <Notebook width=" 5.02198E+01%" Tabs="POS_TOP" >
+            <Notebook width=" 5.00810E+01%" Tabs="POS_TOP" >
               <Child Raised="True" Group=" 107" State="NORMAL" >
                 <Location_View_Record />
               </Child>
@@ -214,24 +214,89 @@
       </Pane>
     </perspective>
   </perspectives>
-  <desktops>
+  <desktops >
     <desktop perspective="Default" >
-      <vfs_project>/home/cjolman3/MyCode/gnatstudiobinplugintest.gpr</vfs_project>
+      <vfs_project>/home/cjolman3/MyCode/gnatstudio_plugin_test/mixed_project.gpr</vfs_project>
       <Learn_View>
-        <learn position=" 5.00000E+01%"  />
+        <learn position=" 7.49599E+01%"  />
       </Learn_View>
       <Pane width=" 1.00000E+02%" Orientation="ORIENTATION_HORIZONTAL" >
-        <Notebook width=" 1.00438E+02%" Tabs="POS_TOP" >
+        <Notebook width=" 1.00216E+02%" Tabs="POS_TOP" >
           <Child Group=" 1" State="NORMAL" >
-            <Welcome />
-          </Child>
-          <Child Raised="True" Focus="True" Group=" 1" State="NORMAL" >
             <Source_Editor>
-              <project>/home/cjolman3/MyCode/gnatstudiobinplugintest.gpr</project>
+              <project>/home/cjolman3/MyCode/gnatstudio_plugin_test/mixed_project.gpr</project>
+              <Column_End>1</Column_End>
+              <Column>1</Column>
+              <Line>7</Line>
+              <vfs_File>/home/cjolman3/MyCode/gnatstudio_plugin_test/src/cpp/bindings_cpp.cpp</vfs_File>
+            </Source_Editor>
+          </Child>
+          <Child Group=" 1" State="NORMAL" >
+            <Source_Editor>
+              <project>/home/cjolman3/MyCode/gnatstudio_plugin_test/mixed_project.gpr</project>
+              <Column_End>23</Column_End>
+              <Column>23</Column>
+              <Line>4</Line>
+              <vfs_File>/home/cjolman3/MyCode/gnatstudio_plugin_test/src/cpp/bindings_cpp.hpp</vfs_File>
+            </Source_Editor>
+          </Child>
+          <Child Group=" 1" State="NORMAL" >
+            <Source_Editor>
+              <project>/home/cjolman3/MyCode/gnatstudio_plugin_test/mixed_project.gpr</project>
               <Column_End>1</Column_End>
               <Column>1</Column>
               <Line>1</Line>
-              <vfs_File>/home/cjolman3/MyCode/src/main.adb</vfs_File>
+              <vfs_File>/home/cjolman3/MyCode/gnatstudio_plugin_test/src/ada/bindings.ads</vfs_File>
+            </Source_Editor>
+          </Child>
+          <Child Raised="True" Focus="True" Group=" 1" State="NORMAL" >
+            <Source_Editor>
+              <project>/home/cjolman3/MyCode/gnatstudio_plugin_test/mixed_project.gpr</project>
+              <Column_End>1</Column_End>
+              <Column>1</Column>
+              <Line>1</Line>
+              <vfs_File>/home/cjolman3/MyCode/gnatstudio_plugin_test/src/ada/main.adb</vfs_File>
+            </Source_Editor>
+          </Child>
+        </Notebook>
+      </Pane>
+    </desktop>
+    <desktop perspective="Default">
+      <vfs_project >/home/cjolman3/MyCode/gnatstudio_plugin_test/gnatstudiobinplugintest.gpr</vfs_project>
+      <Learn_View >
+        <learn position=" 7.51204E+01%" />
+      </Learn_View>
+      <Pane width=" 1.00000E+02%" Orientation="ORIENTATION_HORIZONTAL">
+        <Notebook width=" 1.00216E+02%" Tabs="POS_TOP">
+          <Child Raised="True" Focus="True" Group=" 1" State="NORMAL">
+            <Source_Editor >
+              <project  />
+              <Column_End >1</Column_End>
+              <Column >1</Column>
+              <Line >1</Line>
+              <vfs_File >/home/cjolman3/MyCode/gnatstudio_plugin_test/gnatstudiobinplugintest.gpr</vfs_File>
+            </Source_Editor>
+          </Child>
+        </Notebook>
+      </Pane>
+    </desktop>
+    <desktop perspective="Default">
+      <vfs_project >/home/cjolman3/MyCode/gnatstudiobinplugintest.gpr</vfs_project>
+      <Learn_View >
+        <learn position=" 5.00000E+01%" />
+      </Learn_View>
+      <Pane width=" 1.00000E+02%" Orientation="ORIENTATION_HORIZONTAL">
+        <Notebook width=" 1.00437E+02%" Tabs="POS_TOP">
+          <Child Group=" 1" State="NORMAL">
+            <Welcome  />
+          </Child>
+          <Child Raised="True" Focus="True" Group=" 1" State="NORMAL">
+            <Source_Editor >
+              <project >/home/cjolman3/MyCode/gnatstudiobinplugintest.gpr</project>
+              <Column_End >1</Column_End>
+              <Column >1</Column>
+              <Line >1</Line>
+              <vfs_File >/home/cjolman3/MyCode/src/main.adb</vfs_File>
             </Source_Editor>
           </Child>
         </Notebook>

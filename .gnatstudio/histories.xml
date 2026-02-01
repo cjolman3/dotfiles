@@ -57,6 +57,11 @@
     <Length> 1</Length>
   </key>
   <key type="strings" name="reopen_files" >
+    <value>/home/cjolman3/MyCode/gnatstudio_plugin_test/src/ada/main.adb</value>
+    <value>/home/cjolman3/MyCode/gnatstudio_plugin_test/src/ada/bindings.ads</value>
+    <value>/home/cjolman3/MyCode/gnatstudio_plugin_test/src/cpp/bindings_cpp.hpp</value>
+    <value>/home/cjolman3/MyCode/gnatstudio_plugin_test/src/cpp/bindings_cpp.cpp</value>
+    <value>/home/cjolman3/MyCode/gnatstudio_plugin_test/gnatstudiobinplugintest.gpr</value>
     <value>/home/cjolman3/MyCode/src/main.adb</value>
   </key>
   <key type="booleans" name="search-displays-relative-paths" >
@@ -82,7 +87,7 @@
     <Length> 1</Length>
   </key>
   <key type="strings" name="project_files" >
-    <value>/home/cjolman3/MyCode/gnatstudiobinplugintest.gpr</value>
+    <value>/home/cjolman3/MyCode/gnatstudio_plugin_test/mixed_project.gpr</value>
   </key>
   <key type="booleans" name="project_view-filter-negate" >
     <value>FALSE</value>

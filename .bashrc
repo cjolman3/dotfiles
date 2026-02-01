@@ -128,3 +128,6 @@ alias gterm='dbus-launch --exit-with-session gnome-terminal &'
 alias killgterm='pkill -f dbus-launch; pkill -f gnome-terminal-server'
 
 export PATH="$HOME/bin:$PATH"
+export PATH="//opt/gnatstudio/bin:$PATH"
+
+export PATH="$HOME/.local/bin:$PATH"

@@ -3,9 +3,11 @@ alias gpu-off="~/disable-gpu.sh"
 
 
 
-alias myalias="nvim ~/.bash_aliases"
-alias mybashrc="nvim ~/.bashrc"
+alias myalias="vim ~/.bash_aliases"
+alias mybashrc="vim ~/.bashrc"
+alias myvimrc="vim ~/.vimrc"
 alias srcbashrc="source ~/.bashrc"
 alias dotfiles="cd ~/dotfiles"
 alias mycode="cd ~/MyCode"
 alias myinitlua="nvim ~/.config/nvim/init.lua"
+alias fd=fdfind

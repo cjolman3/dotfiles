@@ -1,4 +1,3 @@
-hi clear
 let g:colors_name = "tokyonight-night"
   
 hi ALEErrorSign guibg=NONE guifg=#db4b4b
